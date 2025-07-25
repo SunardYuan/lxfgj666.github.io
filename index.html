@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
   <title>临湘市发改局</title>
   <meta charset="UTF-8">
@@ -9,119 +9,90 @@
       font-family: Arial, sans-serif;
       padding: 20px;
       line-height: 1.6;
+      max-width: 1000px;
+      margin: 0 auto;
     }
     h1 {
       color: #333;
       text-align: center;
       margin-bottom: 30px;
     }
-    h2 {
-      color: #2c3e50;
-      margin-top: 30px;
-      padding-bottom: 5px;
-      border-bottom: 1px solid #eee;
-    }
-    .download-btn {
-      display: block;
-      margin: 15px 0;  /* 增大上下边距，控制行距 */
-      padding: 10px 15px;
-      background-color: #f8f9fa;
-      color: #0056b3;
-      text-decoration: none;
-      border: 1px solid #dee2e6;
-      border-radius: 4px;
-      transition: all 0.3s ease;
-    }
-    .download-btn:hover {
-      background-color: #e9ecef;
-      border-color: #adb5bd;
-    }
     .section {
-      margin-bottom: 30px;
+      margin-bottom: 40px;
+      text-align: center;
+    }
+    .section-title {
+      color: #2c3e50;
+      margin-bottom: 15px;
+      font-size: 20px;
+    }
+    .qr-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 30px;
+    }
+    .qr-item {
+      width: 180px;
+      text-align: center;
+    }
+    .qr-img {
+      width: 150px;
+      height: 150px;
+      border: 1px solid #eee;
+      padding: 5px;
+      cursor: pointer;
+      transition: transform 0.3s;
+    }
+    .qr-img:hover {
+      transform: scale(1.05);
+    }
+    .qr-label {
+      margin-top: 10px;
+      font-weight: bold;
+      color: #333;
+    }
+    .footer {
+      text-align: center;
+      margin-top: 50px;
+      color: #666;
+      font-size: 14px;
     }
   </style>
 </head>
 <body>
 
-<h1>临湘市发改局</h1>
+<h1>临湘市发改局服务指南</h1>
 
 <div class="section">
-  <h2>1.审批服务</h2>
-  <a href="1.项目审批—— 一网通办网上申报操作指引.docx" class="download-btn" download="1.项目审批—— 一网通办网上申报操作指引.docx">
-    1.项目审批—— 一网通办网上申报操作指引.docx</a>
-  <a href="2.能源领域——湘发改能源规〔2025〕289 号-关于印发《湖南省电动汽车充换电基础设施建设与运营管理办法》的通知.pdf"
-     class="download-btn" download="2.能源领域——湘发改能源规〔2025〕289 号-关于印发《湖南省电动汽车充换电基础设施建设与运营管理办法》的通知.pdf">
-    2.能源领域——湘发改能源规〔2025〕289 号-关于印发《湖南省电动汽车充换电基础设施建设与运营管理办法》的通知.pdf</a>
-  <a href="3.人防审批相关信息.wps" class="download-btn" download="3.人防审批相关信息.wps">
-    3.人防审批相关信息.wps</a>
-  <a href="告知承诺制.docx" class="download-btn" download="告知承诺制.docx">
-    告知承诺制.docx</a>
-  <a href="岳阳市固定资产投资项目节能承诺备案表(新).docx" class="download-btn" download="岳阳市固定资产投资项目节能承诺备案表(新).docx">
-    岳阳市固定资产投资项目节能承诺备案表(新).docx</a>
-  <a href="企业备案申请资料清单（新）.doc" class="download-btn" download="企业备案申请资料清单（新）.doc">
-    企业备案申请资料清单（新）.doc</a>
-  <a href="关于规范临湘市屋顶分布式光伏发电项目3(1).pdf" class="download-btn" download="关于规范临湘市屋顶分布式光伏发电项目3(1).pdf">
-    关于规范临湘市屋顶分布式光伏发电项目3(1).pdf</a>
-  <a href="临湘市政府投资项目申报清单(1).doc" class="download-btn" download="临湘市政府投资项目申报清单(1).doc">
-    临湘市政府投资项目申报清单(1).doc</a>
-  <a href="招标申请表.docx" class="download-btn" download="招标申请表.docx">
-    招标申请表.docx</a>
-  <a href="2024年产业结构调整指导目录(3).pdf" class="download-btn" download="2024年产业结构调整指导目录(3).pdf">
-    2024年产业结构调整指导目录(3).pdf</a>
-  <a href="工程建设项目审批有关事项清单.docx" class="download-btn" download="工程建设项目审批有关事项清单.docx">
-    工程建设项目审批有关事项清单.docx</a>
-  <a href="固定资产投资项目核准或备案办事指南.docx" class="download-btn" download="固定资产投资项目核准或备案办事指南.docx">
-    固定资产投资项目核准或备案办事指南.docx</a>
-  <a href="固定资产投资项目节能审查办事指南.docx" class="download-btn" download="固定资产投资项目节能审查办事指南.docx">
-    固定资产投资项目节能审查办事指南.docx</a>
-  <a href="湖南省工程建设项目审批工作第五版指南(4)(1).pdf" class="download-btn" download="湖南省工程建设项目审批工作第五版指南(4)(1).pdf">
-    湖南省工程建设项目审批工作第五版指南(4)(1).pdf</a>
-  <a href="审批服务申报材料清单.docx" class="download-btn" download="审批服务申报材料清单.docx">
-    审批服务申报材料清单.docx</a>
-  <a href="政府投资项目初步设计概算审批办事指南.docx" class="download-btn" download="政府投资项目初步设计概算审批办事指南.docx">
-    政府投资项目初步设计概算审批办事指南.docx</a>
-  <a href="政府投资项目建议书审批办事指南.docx" class="download-btn" download="政府投资项目建议书审批办事指南.docx">
-    政府投资项目建议书审批办事指南.docx</a>
-  <a href="政府投资项目可行性研究报告审批办事指南.docx" class="download-btn" download="政府投资项目可行性研究报告审批办事指南.docx">
-    政府投资项目可行性研究报告审批办事指南.docx</a>
+  <div class="section-title">请扫描下方二维码查看各服务模块内容</div>
+  <div class="qr-container">
+    <div class="qr-item">
+      <img src="approval_qr.png" alt="审批服务二维码" class="qr-img" onclick="window.location.href='approval.html'">
+      <div class="qr-label">审批服务</div>
+    </div>
+    <div class="qr-item">
+      <img src="policy_qr.png" alt="政策报告二维码" class="qr-img" onclick="window.location.href='policy.html'">
+      <div class="qr-label">政策报告</div>
+    </div>
+    <div class="qr-item">
+      <img src="price_qr.png" alt="价格服务二维码" class="qr-img" onclick="window.location.href='price.html'">
+      <div class="qr-label">价格服务</div>
+    </div>
+    <div class="qr-item">
+      <img src="finance_qr.png" alt="金融服务二维码" class="qr-img" onclick="window.location.href='finance.html'">
+      <div class="qr-label">金融服务</div>
+    </div>
+    <div class="qr-item">
+      <img src="credit_qr.png" alt="信用服务二维码" class="qr-img" onclick="window.location.href='credit.html'">
+      <div class="qr-label">信用服务</div>
+    </div>
+  </div>
 </div>
 
-<div class="section">
-  <h2>2.政策报告</h2>
-  <a href="岳阳市民经济业支持政策手册.pdf" class="download-btn" download="岳阳市民经济业支持政策手册.pdf">
-    岳阳市民经济业支持政策手册.pdf</a>
-  <a href="政策文件——关于开展2025年重大项目融资专项申报工作的通知(1).pdf" class="download-btn" download="政策文件——关于开展2025年重大项目融资专项申报工作的通知(1).pdf">
-    政策文件——关于开展2025年重大项目融资专项申报工作的通知(1).pdf</a>
-  <a href="政策文件——关于申报2025年第二批重点民间投资项目的通知(3).pdf" class="download-btn" download="政策文件——关于申报2025年第二批重点民间投资项目的通知(3).pdf">
-    政策文件——关于申报2025年第二批重点民间投资项目的通知(3).pdf</a>
-</div>
-
-<div class="section">
-  <h2>3.价格服务</h2>
-  <a href="告知承诺制.docx" class="download-btn" download="告知承诺制.docx">
-    告知承诺制.docx</a>
-  <a href="告知承诺制.docx" class="download-btn" download="告知承诺制.docx">
-    告知承诺制.docx</a>
-  <a href="告知承诺制.docx" class="download-btn" download="告知承诺制.docx">
-    告知承诺制.docx</a>
-</div>
-
-<div class="section">
-  <h2>4.金融服务</h2>
-  <a href="一文读懂新型政策性金融工具.html" class="download-btn" download="一文读懂新型政策性金融工具.html">
-    一文读懂新型政策性金融工具.html</a>
-  <a href="政策文件——临金发【2025】5号-关于建立支持小微企业融资协调工作机制的通知.pdf" class="download-btn" download="政策文件——临金发【2025】5号-关于建立支持小微企业融资协调工作机制的通知.pdf">
-    政策文件——临金发【2025】5号-关于建立支持小微企业融资协调工作机制的通知.pdf</a>
-</div>
-
-<div class="section">
-  <h2>5.信用服务</h2>
-  <a href="告知承诺制.docx" class="download-btn" download="告知承诺制.docx">
-    告知承诺制.docx</a>
-  <a href="岳阳市固定资产投资项目节能承诺备案表(新).docx" class="download-btn" download="岳阳市固定资产投资项目节能承诺备案表(新).docx">
-    岳阳市固定资产投资项目节能承诺备案表(新).docx</a>
-  <a href="企业备案申请资料清单（新）.doc" class="download-btn" download="企业备案申请资料清单（新）.doc">
-    企业备案申请资料清单（新）.doc</a>
+<div class="footer">
+  <p>临湘市发展和改革局 © 2025 版权所有</p>
 </div>
 
 </body>
